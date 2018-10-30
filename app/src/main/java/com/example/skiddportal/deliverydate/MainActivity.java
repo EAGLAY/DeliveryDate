@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 int year;
                 String jahr = edt3.getText().toString();
                 year = Integer.parseInt(jahr);
-                int wk_cnt,wk=14,dlv_mnth,lmp_mnth;
+                int wk_cnt,wk=7,dlv_mnth,lmp_mnth;
                 int yod;
                 wk_cnt = date + wk;
                 dlv_mnth = (month + 9) - 12;
